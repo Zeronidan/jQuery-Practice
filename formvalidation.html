@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="formvalidation.css">
+
+	<link rel="stylesheet" href="jquery-ui/jquery-ui.min.css">
+	
+	<script src="jquery-ui/external/jquery/jquery.js"></script>
+	<script src="jquery-ui/jquery-ui.min.js"></script>
+
+</head>
+<body>
+
+	<div id="wrapper">
+
+		<div id="errorMessage"></div>
+		<div id="successMessage"> You did it! Congratulations.</div>
+
+		<div class="formElement">
+			<label for="email">Email</label>
+			<input type="text" name="email" id="email" placeholder="eg. yourname@gmail.com">
+		</div>
+
+		<div class="formElement">
+			<label for="phone">Telephone</label>
+			<input type="text" name="phone" id="phone" placeholder="0123456789">
+		</div>
+
+		<div class="formElement">
+			<label for="password">Password</label>
+			<input type="password" name="password" id="password">
+		</div>
+
+		<div class="formElement">
+			<label for="passwordConfirm">Confirm Password</label>
+			<input type="password" name="passworConfirm" id="passwordConfirm">
+		</div>
+
+		<div class="formElement">
+			<input type="submit" id="submitButton" value="Sign Up">
+		</div>
+
+	</div>
+
+</body>
+
+<script src="formvalidation.js"></script>
+</html>

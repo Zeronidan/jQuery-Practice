@@ -1,0 +1,33 @@
+#t{
+	width:150px;
+	height:150px;
+	background-color:yellow;
+}
+
+h3{
+	text-align: center;
+	margin: 0;
+}
+
+#resizable{
+	width:100px;
+	height:100px;
+	background-color:blue;
+}
+
+#also{
+	width:100px;
+	height:100px;
+	background-color:green;
+}
+
+#draggable2{
+	width:100px;
+	height:100px;
+	background-color:red;
+}
+#droppable{
+	width:200px;
+	height:200px;
+	background-color:purple;
+}
